@@ -42,12 +42,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (isValid) {
       feedbackDiv.textContent = "Registration successful!";
-      feedbackDiv.style.color = "#28a745";           // green
-      feedbackDiv.style.backgroundColor = "#d4edda"; // light green
+      feedbackDiv.style.color = "#28a745";           // matches guide
+      feedbackDiv.style.backgroundColor = "#d4edda"; // optional, for contrast
     } else {
       feedbackDiv.innerHTML = messages.join("<br>");
-      feedbackDiv.style.color = "#d8000c";           // red
-      feedbackDiv.style.backgroundColor = "#ffbaba"; // light red
+      feedbackDiv.style.color = "#dc3545";           // matches guide
+      feedbackDiv.style.backgroundColor = "#ffbaba"; // optional, for contrast
     }
   });
 });
